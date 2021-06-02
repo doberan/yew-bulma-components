@@ -1,0 +1,17 @@
+[package]
+name = "yew_bulma_components"
+version = "0.1.0"
+authors = ["doberan"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+wasm-bindgen = "0.2.74"
+yew = "0.18.0"
+yew-router = "0.15.0"
+yewtil = "*"
+
+[dependencies.web-sys]
+features = ["Window"]
+version = "0.3"
