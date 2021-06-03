@@ -3,7 +3,22 @@ name = "yew_bulma_components"
 version = "0.1.0"
 authors = ["doberan"]
 edition = "2018"
+description = "Yew bluma componets"
+documentation = ""
+homepage = ""
+repository = "https://github.com/doberan/yew-bulma-components"
+readme = "README.md"
+keywords = [
+  "yew-bulma-components",
+  "yew",
+  "bulma",
+  "components",
+  "WebAssembly"
+]
+categories = ["yew-components"]
+license = "MIT"
 
+crate-type = ["rlib", "cdylib"]
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]

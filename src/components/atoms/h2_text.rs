@@ -8,11 +8,11 @@ pub struct Props {
   pub text: String,
 }
 
-pub struct H1Text {
+pub struct H2Text {
   props: Props
 }
 
-impl Component for H1Text {
+impl Component for H2Text {
     type Message = ();
     type Properties = Props;
 
@@ -32,7 +32,7 @@ impl Component for H1Text {
 
     fn view(&self) -> Html {
         html! {
-          <h1 class={ self.props.classes.clone() }>{ self.props.text.clone() }</h1>
+          <h2 class={ self.props.classes.clone() }>{ self.props.text.clone() }</h2>
         }
     }
 }
