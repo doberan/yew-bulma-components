@@ -1,11 +1,11 @@
 [package]
 name = "yew_bulma_components"
 version = "0.1.0"
-authors = ["doberan"]
+authors = ["doberan <doberan.develop@gmail.com>"]
 edition = "2018"
 description = "Yew bluma componets"
-documentation = ""
-homepage = ""
+documentation = "https://github.com/doberan/yew-bulma-components"
+homepage = "https://github.com/doberan/yew-bulma-components"
 repository = "https://github.com/doberan/yew-bulma-components"
 readme = "README.md"
 keywords = [
