@@ -1,8 +1,8 @@
 use yew::prelude::*;
 use yewtil::NeqAssign;
 use crate::components::atoms::{
-  H1Text,
-  H2Text,
+  h1,
+  h2,
 };
 
 #[derive(Clone, Debug, PartialEq, Properties)]
@@ -40,8 +40,8 @@ impl Component for TitleContainer {
     fn view(&self) -> Html {
         html! {
           <div class={ format!("hero-body container pb-0 {}", self.props.container_classes.clone()) }>
-            <H1Text classes={ format!("title {}", self.props.title_classes.clone()) } text={ self.props.title_text.clone() } />
-            <H2Text classes={ format!("subtitle {}", self.props.subtitle_classes.clone()) } text={ self.props.subtitle_text.clone() } />
+            <h1::Text classes={ format!("title {}", self.props.title_classes.clone()) } text={ self.props.title_text.clone() } />
+            <h2::Text classes={ format!("subtitle {}", self.props.subtitle_classes.clone()) } text={ self.props.subtitle_text.clone() } />
           </div>
         }
     }

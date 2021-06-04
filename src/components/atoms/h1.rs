@@ -8,11 +8,11 @@ pub struct Props {
   pub text: String,
 }
 
-pub struct H1Text {
+pub struct Text {
   props: Props
 }
 
-impl Component for H1Text {
+impl Component for Text {
     type Message = ();
     type Properties = Props;
 

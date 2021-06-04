@@ -2,11 +2,12 @@ pub mod components;
 pub mod prelude {
   pub use crate::components::{
     atoms::{
-      H1Text,
-      H2Text,
+      h1,
+      h2,
+      p,
     },
     molecules::{
-      TitleContainer,
+      container,
     }
   };
 }
