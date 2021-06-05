@@ -22,7 +22,7 @@ version = "0.1.0"
 [dependencies]
 wasm-bindgen = "0.2.74"
 yew = "0.18.0"
-yew_bulma_components = {path="../yew-bulma-components", version = "0.1.0" }
+yew_bulma_components = "0.1.0"
 ```
 
 edit index.html.
@@ -44,7 +44,7 @@ edit main.rs
 ```rust
 extern crate yew_bulma_components;
 use yew::prelude::*;
-use yew_bulma_components::components::atoms::h1_text::H1Text;
+use yew_bulma_components::components::atoms::h1;
 
 pub struct Home;
 impl Component for Home {
@@ -65,7 +65,7 @@ impl Component for Home {
 
     fn view(&self) -> Html {
         html! {
-          <H1Text classes="title" title="Sample homepage" />
+          <h1::Text classes="title" title="Sample homepage" />
         }
     }
 }
